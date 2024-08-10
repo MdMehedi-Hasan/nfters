@@ -2,6 +2,8 @@ import PrimaryButton from '../Components/PrimaryButton'
 import BannerSlider from '../Components/BannerSlider'
 import SingleCard from '../components/SingleCard'
 import CollectionCard from '../components/CollectionCard'
+import SideCard from '../components/SideCard'
+import ListCard from '../components/ListCard'
 
 export default function Home() {
     return (
@@ -13,8 +15,14 @@ export default function Home() {
             <div className='grid grid-cols-4 gap-5'>
             <SingleCard/>
             </div>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid grid-cols-3 gap-8'>
                 <CollectionCard/>
+            </div>
+            <div>
+                <SideCard/>
+            </div>
+            <div>
+                <ListCard/>
             </div>
         </div>
     )
