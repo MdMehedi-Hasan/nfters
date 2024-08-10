@@ -11,12 +11,12 @@ export default function CountUpSec() {
                 >
                     {({ countUpRef }) => (
                         <div>
-                        <div>
-                            <span className='text-xl font-semibold' ref={countUpRef} />
-                            <span className='text-xl font-semibold'>K+</span>
+                            <div>
+                                <span className='text-2xl font-extrabold' ref={countUpRef} />
+                                <span className='text-2xl font-semibold'>K+</span>
+                            </div>
+                            <span className='text-sm text-slate-500'>Artwork</span>
                         </div>
-                        <span>Artwork</span>
-                    </div>
                     )}
                 </CountUp>
                 <CountUp
@@ -26,12 +26,12 @@ export default function CountUpSec() {
                 >
                     {({ countUpRef }) => (
                         <div>
-                        <div>
-                            <span className='text-xl font-semibold' ref={countUpRef} />
-                            <span className='text-xl font-semibold'>K+</span>
+                            <div>
+                                <span className='text-2xl font-extrabold' ref={countUpRef} />
+                                <span className='text-2xl font-semibold'>K+</span>
+                            </div>
+                            <span className='text-sm text-slate-500'>Auction</span>
                         </div>
-                        <span>Auction</span>
-                    </div>
                     )}
                 </CountUp>
                 <CountUp
@@ -42,10 +42,10 @@ export default function CountUpSec() {
                     {({ countUpRef }) => (
                         <div>
                             <div>
-                                <span className='text-xl font-semibold' ref={countUpRef} />
-                                <span className='text-xl font-semibold'>K+</span>
+                                <span className='text-2xl font-extrabold' ref={countUpRef} />
+                                <span className='text-2xl font-semibold'>K+</span>
                             </div>
-                            <span>Artist</span>
+                            <span className='text-sm text-slate-500'>Artist</span>
                         </div>
                     )}
                 </CountUp>

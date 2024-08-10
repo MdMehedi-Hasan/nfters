@@ -1,13 +1,12 @@
-import PrimaryButton from '../Components/PrimaryButton'
-import BannerSlider from '../Components/BannerSlider'
 import SingleCard from '../components/SingleCard'
 import CollectionCard from '../components/CollectionCard'
 import SideCard from '../components/SideCard'
 import ListCard from '../components/ListCard'
-import CountUpSec from '../components/CountUpSec'
 import Navbar from '../components/Navbar'
 import DrawerAppBar from '../components/MobileDrawer'
 import '../App.css'
+import Header from '../components/Header'
+import Benifits from '../components/Benifits'
 
 export default function Home() {
     return (
@@ -16,16 +15,20 @@ export default function Home() {
                 <DrawerAppBar />
             </div>
             <div className='border-b border-slate-300 hidden lg:block'>
-                <div className='max-w-6xl mx-auto px-5'>
+                <div className='max-w-6xl mx-auto'>
                     <Navbar />
                 </div>
             </div>
-            <div className='flex justify-end'>
-                <div className='w-3/6'>
-                    <BannerSlider />
+            <section className='max-w-6xl mx-auto'>
+                <Header />
+            </section>
+            <section className='bg-[#F8F9FB] py-10 mt-10'>
+                <div className='max-w-6xl mx-auto'>
+                    <Benifits />
                 </div>
-            </div>
-            <div className='grid grid-cols-4 gap-5'>
+            </section>
+
+            {/* <div className='grid grid-cols-4 gap-5'>
                 <SingleCard />
             </div>
             <div className='grid grid-cols-3 gap-8'>
@@ -36,8 +39,7 @@ export default function Home() {
             </div>
             <div>
                 <ListCard />
-            </div>
-            <CountUpSec />
+            </div> */}
         </div>
     )
 }

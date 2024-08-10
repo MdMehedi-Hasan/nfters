@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -7,6 +6,7 @@ import '../style.css'
 
 
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import SliderCard from './SliderCard';
 export default function BannerSlider() {
     return (
         <Swiper
@@ -26,28 +26,19 @@ export default function BannerSlider() {
             className="mySwiper"
         >
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                <SliderCard />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                <SliderCard />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                <SliderCard />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                <SliderCard />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                <SliderCard />
             </SwiperSlide>
         </Swiper>
     )

@@ -65,11 +65,11 @@ function DrawerAppBar(props) {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        <h2 className="text-lg font-bold text-primary">NFTERS</h2>
+                        <h2 className="text-lg font-bold text-primary archivo">NFTERS</h2>
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
-                            <Button key={item} sx={{ color: '#fff' }}>
+                            <Button key={item} sx={{ color: 'black', textTransform:'capitalize', fontWeight:'600' }}>
                                 {item}
                             </Button>
                         ))}
@@ -93,9 +93,9 @@ function DrawerAppBar(props) {
                     {drawer}
                 </Drawer>
             </nav>
-            {/* <Box component="main" sx={{ p: 3 }}>
+            <Box component="main" sx={{ p: 3 }}>
                 <Toolbar />
-            </Box> */}
+            </Box>
         </Box>
     );
 }
