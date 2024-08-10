@@ -7,6 +7,7 @@ import DrawerAppBar from '../components/MobileDrawer'
 import '../App.css'
 import Header from '../components/Header'
 import Benifits from '../components/Benifits'
+import Discover from '../components/Discover'
 
 export default function Home() {
     return (
@@ -25,6 +26,11 @@ export default function Home() {
             <section className='bg-[#F8F9FB] py-10 mt-10'>
                 <div className='max-w-6xl mx-auto'>
                     <Benifits />
+                </div>
+            </section>
+            <section>
+                <div className='max-w-6xl mx-auto'>
+                    <Discover />
                 </div>
             </section>
 
