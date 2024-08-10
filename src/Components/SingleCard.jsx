@@ -38,12 +38,12 @@ export default function SingleCard() {
                     </ThemeProvider>
                 </div>
             </div>
-            <h5>ArtCrypto</h5>
+            <h5 className='font-semibold text-lg'>ArtCrypto</h5>
             <div className='flex justify-between'>
-                <span className='flex items-center'><FaEthereum />0.23ETH</span>
+                <span className='flex items-center text-green-500'><FaEthereum />0.23ETH</span>
                 <span>1 of 221</span>
             </div>
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between text-purple-600'>
                 <p className='bg-red-100 px-2 py-1 rounded-full'>2h 30m 50s left</p>
                 <button>Place a bid</button>
             </div>
