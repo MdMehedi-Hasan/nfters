@@ -14,7 +14,7 @@ import ListCollection from '../components/ListCollection'
 export default function Home() {
     return (
         <div>
-            <div className='lg:hidden'>
+            {/* <div className='lg:hidden'>
                 <DrawerAppBar />
             </div>
             <div className='border-b border-slate-300 hidden lg:block'>
@@ -39,9 +39,9 @@ export default function Home() {
                 <div className='max-w-6xl mx-auto'>
                     <Collection />
                 </div>
-            </section>
+            </section> */}
             <section>
-                <div className='max-w-6xl mx-auto'>
+                <div className='px-5 xl:px-0 max-w-6xl mx-auto'>
                     <Discover />
                 </div>
             </section>
