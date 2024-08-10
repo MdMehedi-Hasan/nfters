@@ -1,6 +1,6 @@
 import { CiSearch } from "react-icons/ci";
-import OutlinedButton from "./OutlinedButton";
-import PrimaryButton from "./PrimaryButton";
+import PrimaryButton from "./common/PrimaryButton";
+import OutlinedButton from "./common/OutlinedButton";
 
 export default function Navbar() {
     return (

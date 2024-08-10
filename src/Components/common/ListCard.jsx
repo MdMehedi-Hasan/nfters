@@ -1,5 +1,5 @@
 import { FaEthereum } from 'react-icons/fa'
-import badge from '../assets/icons/correct.png'
+import badge from '../../assets/icons/correct.png'
 
 export default function ListCard() {
     return (
@@ -12,7 +12,7 @@ export default function ListCard() {
                 <span className='font-semibold'>CryptoFunks</span>
                 <span className='flex items-center text-xs'><FaEthereum />19,769.39</span>
             </div>
-            <span className='font-semibold text-green-500'>+26.52%</span>
+            <span className='text-sm font-semibold text-green-500'>+26.52%</span>
         </div>
     )
 }

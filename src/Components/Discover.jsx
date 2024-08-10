@@ -1,5 +1,5 @@
-import SingleCard from './SingleCard'
-import OutlinedButton from './OutlinedButton';
+import SingleCard from './common/SingleCard'
+import OutlinedButton from './common/OutlinedButton';
 import Badge from './common/Badge';
 import { useState } from 'react';
 import { IoFilterSharp } from 'react-icons/io5';

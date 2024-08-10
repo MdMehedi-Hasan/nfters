@@ -5,8 +5,8 @@ import 'swiper/css/pagination';
 import '../style.css'
 
 
-import { EffectCoverflow, Pagination } from 'swiper/modules';
-import SliderCard from './SliderCard';
+import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
+import SliderCard from './common/SliderCard';
 export default function BannerSlider() {
     return (
         <Swiper
@@ -22,7 +22,11 @@ export default function BannerSlider() {
                 // slideShadows: true,
             }}
             pagination={false}
-            modules={[EffectCoverflow, Pagination]}
+            autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+            }}
+            modules={[EffectCoverflow, Pagination, Autoplay]}
             className="mySwiper"
         >
             <SwiperSlide>

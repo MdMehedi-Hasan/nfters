@@ -1,5 +1,5 @@
 import React from 'react'
-import PrimaryButton from './PrimaryButton'
+import PrimaryButton from './common/PrimaryButton'
 import CountUpSec from './CountUpSec'
 import BannerSlider from '../components/BannerSlider'
 
