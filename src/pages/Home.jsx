@@ -1,16 +1,12 @@
-import SingleCard from '../components/common/SingleCard'
-import CollectionCard from '../components/common/CollectionCard'
-import SideCard from '../components/common/SideCard'
-import ListCard from '../components/common/ListCard'
 import Navbar from '../components/Navbar'
 import DrawerAppBar from '../components/MobileDrawer'
-import '../App.css'
 import Header from '../components/Header'
 import Benifits from '../components/Benifits'
 import Discover from '../components/Discover'
 import Collection from '../components/Collection'
 import ListCollection from '../components/ListCollection'
 import Sell from '../components/Sell'
+import '../App.css'
 
 export default function Home() {
     return (

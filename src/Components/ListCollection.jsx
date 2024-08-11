@@ -1,6 +1,7 @@
 import { FaEthereum } from 'react-icons/fa'
 import ListCard from './common/ListCard'
 import SideCard from './common/SideCard'
+import imagesCollection from '../data/Imagecollection'
 
 export default function ListCollection() {
     return (
@@ -22,9 +23,7 @@ export default function ListCollection() {
                 </div>
             </div>
             <div className='flex flex-col gap-5'>
-                <SideCard />
-                <SideCard />
-                <SideCard />
+                {imagesCollection.slice(7, 10).map((item, index) => <SideCard data={item} key={index} />)}
             </div>
             <div className='lg:border-l px-4'>
                 <h2 className='text-xl archivo'>TOP COLLECTIONS OVER</h2>
