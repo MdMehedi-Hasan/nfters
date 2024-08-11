@@ -12,7 +12,21 @@ export default function Header() {
                 <PrimaryButton message="Explore Now" />
                 </div>
                 <div className='mt-5 flex items-center justify-center md:justify-start'>
-                    <CountUpSec />
+                    {/* <CountUpSec /> */}
+                    <ul className='flex items-center gap-10'>
+                        <li className='flex flex-col'>
+                            <span className='text-2xl font-extrabold'>98k+</span>
+                            <span className='text-slate-500 text-sm'>Artwork</span>
+                        </li>
+                        <li className='flex flex-col'>
+                            <span className='text-2xl font-extrabold'>12k+</span>
+                            <span className='text-slate-500 text-sm'>Auction</span>
+                        </li>
+                        <li className='flex flex-col'>
+                            <span className='text-2xl font-extrabold'>15k+</span>
+                            <span className='text-slate-500 text-sm'>Artist</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div className='w-full md:w-1/2'>
