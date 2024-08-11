@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import circle from '../assets/live_auction.webp'
 import '../style.css'
 
 
@@ -30,7 +31,10 @@ export default function BannerSlider() {
             className="mySwiper"
         >
             <SwiperSlide>
-                <SliderCard />
+                <div className='h-full relative'>
+                    <SliderCard />
+                    <img className='absolute !w-20 h-20 top-1/2 transform -translate-y-1/2 -left-10' src={circle} alt="" />
+                </div>
             </SwiperSlide>
             <SwiperSlide>
                 <SliderCard />
