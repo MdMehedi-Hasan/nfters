@@ -1,11 +1,10 @@
-import React from 'react'
 import { FaEthereum } from 'react-icons/fa'
 import ListCard from './common/ListCard'
 import SideCard from './common/SideCard'
 
 export default function ListCollection() {
     return (
-        <div className='grid grid-cols-3 gap-8'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 gap-y-16 lg:gap-y-0'>
             <div className='flex flex-col'>
                 <img className='h-full w-full object-cover rounded-xl' src="https://img.freepik.com/free-vector/gradient-colorful-grainy-dynamic-background_52683-101908.jpg?t=st=1723331847~exp=1723335447~hmac=9092e7cabc3440e26f2a11bfa06e527bf832fd116d23e841fc34ccc3f09ee849&w=826" alt="" />
                 <div className='flex items-center justify-between mt-4'>
@@ -27,7 +26,7 @@ export default function ListCollection() {
                 <SideCard />
                 <SideCard />
             </div>
-            <div className='border-l px-4'>
+            <div className='lg:border-l px-4'>
                 <h2 className='text-xl archivo'>TOP COLLECTIONS OVER</h2>
                 <span className='text-[#3D00B7] text-sm font-semibold'>Last 7 days</span>
                 <div className='flex flex-col gap-5 mt-5'>

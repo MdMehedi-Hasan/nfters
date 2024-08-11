@@ -3,9 +3,9 @@ import { GrDocumentPerformance } from "react-icons/gr";
 
 export default function Benifits() {
     return (
-        <div className="flex items-start gap-16">
-            <h2 className="text-xl font-semibold archivo w-7/12">THE AMAZING NFT ART OF THE WORLD HERE</h2>
-            <ul className="flex items-center gap-10">
+        <div className="flex flex-col lg:flex-row items-start gap-16">
+            <h2 className="text-xl font-semibold archivo md:w-7/12">THE AMAZING NFT ART OF THE WORLD HERE</h2>
+            <ul className="flex flex-col md:flex-row items-center gap-10">
                 <li className="flex items-start gap-3">
                     <GrDocumentPerformance className="text-5xl h-auto mt-1"/>
                     <div>
