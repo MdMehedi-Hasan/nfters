@@ -21,10 +21,10 @@ export default function Home() {
                 <div className='max-w-6xl mx-auto'>
                     <Navbar />
                 </div>
-            </div>
-            <section className='max-w-6xl mx-auto'>
+            </div> */}
+            <section className='px-5 xl:px-0 max-w-6xl mx-auto'>
                 <Header />
-            </section> */}
+            </section>
             <section className='bg-[#F8F9FB] py-10 mt-10'>
                 <div className='px-5 xl:px-0 max-w-6xl mx-auto'>
                     <Benifits />
