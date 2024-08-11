@@ -29,7 +29,7 @@ function DrawerAppBar(props) {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                <h2 className="text-lg font-bold text-primary">NFTERS</h2>
+                <h2 className="text-lg font-bold text-primary archivo">NFTERS</h2>
             </Typography>
             <Divider />
             <List>
