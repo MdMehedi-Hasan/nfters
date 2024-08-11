@@ -1,9 +1,10 @@
-import PrimaryButton from "./Components/PrimaryButton";
+import Home from "./pages/Home";
+import './App.css'
 
 export default function App() {
   return (
-    <div className="m-10">
-      <PrimaryButton message="Upload" />
+    <div>
+      <Home/>
     </div>
   )
 }
