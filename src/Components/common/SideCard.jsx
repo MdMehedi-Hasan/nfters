@@ -2,10 +2,10 @@ import React from 'react'
 import { FaEthereum } from 'react-icons/fa'
 import OutlinedButton from './OutlinedButton'
 
-export default function SideCard() {
+export default function SideCard({data}) {
     return (
         <div className='grid grid-cols-6 gap-5'>
-            <img className='w-full h-full object-cover col-span-2 rounded-lg' src="https://images.unsplash.com/photo-1618397746666-63405ce5d015?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img className='w-full h-full object-cover col-span-2 rounded-lg' src={data} alt="" />
             <div className='col-span-4'>
                 <h4 className='font-semibold text-lg'>The furtd disc</h4>
                 <div className='flex items-center gap-2 mb-3'>

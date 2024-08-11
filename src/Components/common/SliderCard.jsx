@@ -1,10 +1,9 @@
-import React from 'react'
 import { FaEthereum } from 'react-icons/fa'
 
-export default function SliderCard() {
+export default function SliderCard({data}) {
     return (
         <div className='w-full h-full relative'>
-            <img className='w-full h-full rounded-2xl' src="https://images.unsplash.com/photo-1618397746666-63405ce5d015?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img className='w-full h-full rounded-2xl' src={data} alt="" />
             <div className='absolute top-5 left-4 text-white'>
                 <h5 className='text-lg'>Abstr Gradient NFT</h5>
                 <div className='flex items-center gap-2'>

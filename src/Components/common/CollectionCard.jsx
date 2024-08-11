@@ -1,16 +1,17 @@
 import { FaEthereum } from "react-icons/fa";
 
-export default function CollectionCard() {
+export default function CollectionCard({ data }) {
+    console.log(data)
     return (
         <div>
             <div className="grid grid-cols-12 items-stretch gap-3">
                 <div className="col-span-9">
-                    <img className="w-full h-full object-cover rounded-lg" src="https://images.unsplash.com/photo-1618397746666-63405ce5d015?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                    <img className="w-full h-56 object-cover rounded-lg" src={data[0]} alt="" />
                 </div>
                 <div className="flex flex-col gap-3 col-span-3">
-                    <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1618397746666-63405ce5d015?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
-                    <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1618397746666-63405ce5d015?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
-                    <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1618397746666-63405ce5d015?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                    <img className="w-full h-full rounded-lg" src={data[1]} alt="" />
+                    <img className="w-full h-full rounded-lg" src={data[2]} alt="" />
+                    <img className="w-full h-full rounded-lg" src={data[3]} alt="" />
                 </div>
             </div>
             <div>
