@@ -1,8 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# NFTERS
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+NFTERS is developed using the modern Single Page Application (SPA) framework, React.js. Tailwind CSS has been utilized for styling, while MUI is integrated for component construction. Additionally, various other packages have been incorporated to fulfill the diverse requirements of the project.
+## Installation
+Please follow below steps to run the project locally.
+
+**Step 1 :-**  
+clone the project from github
+
+```bash
+  git clone https://github.com/MdMehedi-Hasan/nfters.git
+```
+
+**Step 2 :-**  
+Run Project
+
+```bash
+  npm install
+  npm start
+```
+> **_NOTE:_**  You might need to install additional npm packages.
+    
+## 🔗 Links
+[Live Website Link](https://thenfters.netlify.app/) - https://thenfters.netlify.app/
+
